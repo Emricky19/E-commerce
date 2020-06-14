@@ -1,0 +1,41 @@
+.ShippingInfo{
+    width: 100%;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    color: #9e9e9e
+}
+.Container{
+    padding: 10px 20px;
+}
+.GridSection{
+    margin-top: -10px !important;
+    margin-bottom: 20px !important;
+}
+.ShippingInfo input{
+    border: 1px solid #9e9e9e;
+    margin: 5px 0;
+}
+
+
+.Divider{
+    margin: 20px 0 !important;
+}
+/* Shipping info paragraph */
+.Info{
+    font-weight: 700;
+}
+.ShippingButton{
+    background-color: #569c46;
+    color: #fff;
+    margin-top: 10px;
+    padding: 5px 0;
+    width: 100%;
+    outline: 0 !important;
+}
+
+@media (min-width: 760px){
+    .ShippingInfo{
+        width: 70%;
+    }
+}

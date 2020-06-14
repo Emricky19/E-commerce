@@ -1,0 +1,54 @@
+.OrderSummary{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    color: #616161;
+}
+.Container{
+    padding: 0 10px;
+}
+.backBtn{
+    outline: 0 !important;
+    text-transform: capitalize !important;
+    border-radius: 0 !important;
+    margin: 10px 0 !important;
+}
+.Divider{
+    margin: 10px 0 !important;
+}
+.SummaryInfo{
+    font-weight: 700;
+    font-size: 20px;
+}
+.summarySection{
+    text-align: center;
+}
+.Img{
+    width: 4vw;
+    margin: 10px 0;
+}
+.Paragraph{
+    line-height: 0.5;
+    padding: 10px 0;
+    
+}
+.MobileOnly{
+    display: none
+}
+
+@media (min-width: 760px){
+    .OrderSummary{
+        width: 70%;
+    }
+}
+@media (max-width: 415px){
+    .backBtn{
+        width: 100%;
+    }
+    .Img{
+        width: 30vw;
+    }
+    .MobileOnly{
+        display: inline
+    }
+}

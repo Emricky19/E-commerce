@@ -1,0 +1,25 @@
+.ProductDetails{
+    margin: 70px 0;
+}
+.Container{
+    width: 90%;
+}
+.Img{
+    width: 50vw;
+}
+.productDetailBtn{
+    outline: 0 !important;
+    text-transform: capitalize !important;
+    border-radius: 0 !important;
+    margin: 10px !important;
+}
+.addBtn{
+    background-color:#569c46 !important;
+    color: #fff !important;
+}
+
+@media (max-width: 415px){
+    .ProductDetails{
+        margin-left: 40px;
+    }
+}

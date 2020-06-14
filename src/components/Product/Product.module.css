@@ -1,0 +1,31 @@
+.Product{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ProductImg{
+    width: 200px;
+    margin: 10px 60px;
+}
+.Button{
+    outline: 0 !important;
+}
+
+@media (min-width: 768px) {
+    .Product {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .Product {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .Product {
+        width: 1170px;
+    }
+}
+
+

@@ -1,0 +1,34 @@
+.Toolbar{
+    background-color: #3797a4 !important;
+    height: 70px;
+    margin-bottom: 40px;
+}
+.Logo{
+    padding: 20px 40px;
+    float: left;
+    color: white;
+}
+.Logo a{
+    color: #fff;
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+.Logo a:hover{
+    text-decoration: none;
+}
+.Toggler{
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (min-width: 760px){
+    .Toggler{
+        display: none;
+    }
+}
+@media (max-width: 415px){
+    .NavigationItems{
+        display: none;
+    }
+}

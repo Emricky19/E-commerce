@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+import Toolbar from './components/Navigation/Toolbar/Toolbar'
+import Products from './containers/Products/Products'
+import Cart from './components/Cart/Cart'
+import Checkout from './components/Checkout/Checkout'
+import ProductDetails from './components/Product/ProductDetails/ProductDetails'
+import { Route, Switch } from 'react-router-dom'
+
+import classes from './App.module.css'
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <div className={classes.App}>
+        <Toolbar />
+        
+        <Switch>
+          <Route exact path='/' component= {Products} />
+          <Route path='/cart' component={ Cart } />
+          <Route path='/checkout' component={ Checkout } />
+          <Route path='/productDetails' component={ ProductDetails } />
+        </Switch>
+      </div>
+  )
 }
 
-export default App;
+export default App

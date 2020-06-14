@@ -1,0 +1,31 @@
+.CartSummary{
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.CartsummaryContainer{
+    padding: 2px 16px 40px;
+}
+.ContinueButton{
+    outline: 0 !important;
+    text-transform: capitalize !important;
+    border-radius: 0 !important;
+    margin-top: 10px !important;
+}
+a:active, a:hover{
+    text-decoration: none;
+}
+.CheckoutButton{
+    outline: 0 !important;
+    text-transform: capitalize !important;
+    border-radius: 0 !important;
+    background-color: #32a852 !important;
+    color: #fff !important;
+    float: right !important;
+}
+@media(max-width: 415px){
+    .ContinueButton{
+        width: 100% !important;
+    }
+}
